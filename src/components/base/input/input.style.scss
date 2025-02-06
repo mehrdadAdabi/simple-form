@@ -1,0 +1,12 @@
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.custom-input {
+  border: 1px solid;
+  border-radius: .3rem;
+  padding: 0.2rem 0.5rem;
+}

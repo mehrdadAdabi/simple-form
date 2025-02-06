@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+}
+
+tbody {
+  border-right: 1px solid;
+}
+
+.row {
+  text-align: center;
+  border: 1px solid grey;
+
+  & > * {
+    padding: .5rem;
+    border-left: 1px solid;
+  }
+
+  & > *:last-child {
+    border-left: unset;
+  }
+}
+
+.header {
+  padding: .5rem;
+  border: 1px solid;
+}
+
+.no-data {
+  text-align: center;
+  margin: 1rem 0;
+}

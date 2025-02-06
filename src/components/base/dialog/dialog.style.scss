@@ -1,0 +1,36 @@
+.dialog {
+  position: absolute;
+  z-index: 200;
+  background: white;
+  width: 100%;
+  max-height: 400px;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  padding: 1rem;
+  border-radius: .5rem;
+
+
+}
+
+.header {
+  border-bottom: 1px solid;
+  padding-bottom: .4rem;
+
+  & .close-btn {
+    cursor: pointer;
+  }
+
+}
+
+.backward {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: #444444;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}

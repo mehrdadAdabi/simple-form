@@ -1,0 +1,145 @@
+.form-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+
+.personal {
+  border: 1px solid;
+  padding: .8rem;
+  border-radius: .4rem;
+
+  & .title {
+    border-bottom: 1px solid;
+    padding: 0 0 .4rem 0;
+  }
+
+}
+
+.personal-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: .8rem 0;
+
+
+}
+
+
+.body-status, .second-part {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.second-part {
+  border-top: 1px solid;
+  padding: .8rem 0;
+}
+
+
+.mitral-status {
+  display: flex;
+  gap: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 0;
+  gap: 10px;
+  border-top: 1px solid;
+
+  & .about-phone {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.military {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid;
+  padding-top: .8rem;
+
+  & .status {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.insurance {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+
+  & .items {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+  }
+}
+
+//table_style
+.operation {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+
+  & i {
+    cursor: pointer;
+  }
+}
+
+//dialog
+.education-dialog {
+  height: 270px;
+  max-width: 69rem;
+
+
+  .button-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+
+  & .button-container {
+    & * {
+      cursor: pointer;
+
+    }
+
+    & button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      color: white;
+    }
+  }
+
+  & .submit-button {
+    background: #4C6284;
+  }
+
+  & .cancel-button {
+    background: #b9b9b9;
+  }
+
+}
+
+//table
+.educations-table {
+  position: relative;
+
+  & .add-record{
+    cursor: pointer;
+    position: absolute;
+    left: -30px;
+    top: 14px;
+  }
+}
